@@ -9,7 +9,8 @@ import (
 	"encoding/hex"
 	"hash"
 
-	"code.google.com/p/go.crypto/bcrypt"
+	"golang.org/x/crypto/bcrypt"
+	//"code.google.com/p/go.crypto/bcrypt"
 )
 
 // Hashing the password with the default cost of 10
